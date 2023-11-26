@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "solution_signature": "solution.txt",
+  "can_submit_single_file": false,
+  "single_file_path": "",
+  "number_of_tests": 1,
+  "packages": [
+    {
+      "name": "test",
+      "score": 100.0,
+      "tests": [
+        "test"
+      ],
+      "aggregator": null
+    }
+  ]
+}
