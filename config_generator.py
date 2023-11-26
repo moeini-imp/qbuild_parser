@@ -4,8 +4,6 @@ import json
 import argparse
 
 def get_test_info(project_path):
-    # Add the logic to run your test parser and get test names and numbers
-    # Replace the following line with the actual function call to your parser
     test_names = qtest_parser.test_names
     num_tests = len(test_names)
     return test_names, num_tests

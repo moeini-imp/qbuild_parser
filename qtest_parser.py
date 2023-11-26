@@ -1,5 +1,6 @@
 import unittest
 import os
+import sys
 
 def extract_tests(test_suite_or_case):
     test_names = []
@@ -46,7 +47,7 @@ def discover_and_analyze_tests(project_path="."):
     test_names, num_tests = extract_tests(combined_suite)
     return test_names, num_tests
 
-import sys
+
 
 if len(sys.argv) > 1:
     project_path = sys.argv[1]
